@@ -1,0 +1,16 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    color: #c6d0f5;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303446;
+}
+
+header span {
+    margin: 0 10px;
+}
