@@ -1,7 +1,11 @@
 * {
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
     color: #c6d0f5;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
@@ -9,8 +13,29 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #303446;
+    padding: 10px 0;
+    
 }
 
 header span {
     margin: 0 10px;
+}
+
+header h2 {
+    text-decoration: underline wavy;
+}
+
+.reminder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding: 70px 0;
+    font-family: Material Icons;
+}
+
+main {
+    height: 100%;
+    background-color: #292c3c;
 }
