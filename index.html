@@ -21,14 +21,11 @@
         <h2><span>Drink Reminder</span></h2>
     </header>
     <main>
-        <div class="Reminder">
-            <span class="timer__part timer__part--minutes">00</span>
-            <span class="timer__part timer__part">:</span>
-            <span class="timer__part timer__part--seconds">00</span>
-            <button type="button" class="timer__btn timer__btn--control timer__btn--start">
-                <span class="material-icons">play_arrow</span>
-            </button>
+        <div id="timer-container">
+            <p id="timer">Next reminder in: 00:00</p>
         </div>
+        <button onclick="toggleReminder()">Start Reminder</button>
+        <audio id="alert-sound" src="warning-sound-6686.mp3"></audio>
     </main>
 </body>
 <script src="scripts.js"></script>
