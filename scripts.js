@@ -1,5 +1,5 @@
 let interval;
-let timeLeft = 20; // Default: 30 minutes
+let timeLeft = 1500; // Default: 25 minutes
 let running = false;
 
 function startTimer() {
@@ -11,7 +11,7 @@ function startTimer() {
         if (timeLeft <= 0) {
             document.getElementById("alert-sound").play(); // Play alert sound
             alert("Time to drink water!");
-            timeLeft = 1800; // Reset to 30 minutes automatically
+            timeLeft = 1500; // Reset to 25 minutes automatically
         }
     }, 1000);
 }
