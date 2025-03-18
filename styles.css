@@ -6,6 +6,7 @@
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #292c3c;
 }
 
 header {
@@ -21,8 +22,13 @@ header span {
     margin: 0 10px;
 }
 
+header h1 {
+    background-color: #303446;
+}
+
 header h2 {
     text-decoration: underline wavy;
+    background-color: #303446;
 }
 
 main {
@@ -42,4 +48,6 @@ button {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
+    background-color: transparent;
+    
 }
